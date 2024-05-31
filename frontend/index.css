@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: white;
+}
+
+.center {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    border: 0.5px solid grey;
+    padding: 10px;
+    background: white;
+    color: black;
+    position: relative;
+    top: -200px;
+}

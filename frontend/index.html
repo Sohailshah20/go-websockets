@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Go-Websockets Tut</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+
+    <div class="center">
+        <h1>Go-Websockets Chat</h1>
+        <h3 id="chatheader">Chat</h3>
+        <form id="selectchat">
+            <label for="charroom">ChatRoom</label>
+            <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" id="chatroom"
+                name="chatroom" />
+            <input type="submit" value="changeroom">
+        </form>
+        <br>
+        <textarea class="messageinput" id="chatmessages" readonly name="chatmessages" rows="4" cols="50"
+            placeholder="Welcome to chat">chat-messages</textarea>
+        <br>
+        <form id="chatroommessage">
+            <label for="message">Message</label>
+            <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" id="message"
+                name="message" /><br><br> <input type="submit" value="send message">
+        </form>
+
+    </div>
+</body>
+
+</html>
